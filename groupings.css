@@ -122,23 +122,11 @@ html {
 }
 
 .style4 {
-    position:relative;
     display:inline-block;
     color:navy;
     font-size:60px;
     font-weight:900;
     text-align:center;
-}
-
-.style4::after {
-    content:"";
-    position:absolute;
-    bottom:-10px;
-    left:50%;
-    width:40px;
-    height:4px;
-    background-color:navy;
-    transform: translatex(-50%)
 }
 
 .grid2 {
