@@ -1,0 +1,262 @@
+nav {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    position:sticky;
+    top:-10px;  
+}
+
+nav ul {
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap: 40px;
+    margin-right:20px;
+    margin-left:auto;
+}
+
+nav ul a {
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    font-weight:200px;
+}
+
+nav a:hover {
+    color: navy;
+    text-decoration:underline;
+}
+
+.hero-image {
+    height:85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2)), url("75268db9-b301-40ee-9181-08b19fc29850second.jpe");
+    background-size:cover;
+    background-position:center;
+    padding:40px;
+}
+
+.hero-text {
+    margin:0 auto;
+    color:navy;
+    font-size:30px;
+    animation: fadeIn 2s ease-in;
+    text-shadow: 0px 0px 12px aliceblue;
+}
+
+.welcome {
+    font-family: "Dancing Script", cursive;
+    font-size:80px;
+    font-weight:700;
+}
+
+nav img {
+    width:40px;
+    margin-right:10px;
+}
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(20px);}
+to { opacity: 1; transform: translateY(0);}
+}
+
+.about img {
+    width:350px;
+    margin:10px;
+    border-radius:15px;
+    box-shadow:10px 1px 10px black;
+}
+
+.style {
+    font-size:70px;
+    font-weight:600;
+    color:navy;
+}
+
+.about p {
+    font-size:24px;
+    text-align:center;
+    margin:auto 0;
+}
+
+.about {
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.marginbottom {
+    margin-top:40px;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+.footer {
+    background-color:rgb(2, 2, 87);
+    margin-top:50px;
+    padding:30px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(4, 5fr);
+    place-items:center;
+}
+
+.info {
+    color:white;
+}
+
+.style2 {
+    font-size:50px;
+}
+
+.style3 {
+    font-size:40px;
+    font-weight: 600;
+}
+
+.info p {
+    font-size:20px;
+}
+
+.style4 {
+    position:relative;
+    display:inline-block;
+    color:navy;
+    font-size:60px;
+    font-weight:900;
+    text-align:center;
+}
+
+.style4::after {
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    width:40px;
+    height:4px;
+    background-color:navy;
+    transform: translatex(-50%)
+}
+
+.grid2 {
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    place-items:center;
+    gap:10px;
+}
+
+#home {
+    scroll-margin-top:200px;
+}
+
+#about {
+    scroll-margin-top:50px;
+}
+
+.reason {
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.raason-icon {
+    width:55px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.reason-icon i {
+    font-size:40px;
+    color:navy;
+}
+
+.reason-content {
+    margin: 0 0 8px;
+    font-size:20px;
+    color:#173b70;
+}
+
+.reason-content {
+    margin:0;
+    line-height:1;
+    font-size:18px;
+}
+
+.whylove {
+    margin-left: 90px;
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:10px;
+}
+
+.center {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+}
+
+.center img {
+    width:350px;
+    margin:10px;
+    border-radius:15px;
+    box-shadow:10px 1px 10px black;
+}
+
+#whylove {
+    scroll-margin-top:20px;
+}
+
+.creator {
+    margin-top:35px;
+    background-color:rgb(2, 2, 87);
+    padding:10px;
+    text-align:center
+}
+
+.madeby p {
+    color:white;
+    font-size:15px;
+}
+
+.card {
+    width:300px;
+    border-radius:18px;
+    border: 2px solid black;
+    overflow:hidden;
+    transition: 0.5s;
+    box-shadow: 0 10px 30px black;
+}
+
+.photo {
+    width:100%;
+    height:230px;
+}
+
+.photo img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display:block;
+}
+
+.content {
+    padding:20px;
+}
+
+.card h2 {
+    color:darkgreen
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+.style5 {
+    color:navy;
+    font-size:60px;
+    font-weight:900;
+}
